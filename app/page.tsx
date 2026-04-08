@@ -27,7 +27,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
               <a
-                href="https://apps.apple.com/app/calsnap/id123456789"
+                href="https://apps.apple.com/us/app/ai-nutrition-companion/id6760557467"
                 className="group px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-2xl font-semibold hover:shadow-2xl hover:shadow-purple-400/50 hover:scale-105 transition-all duration-300 flex items-center gap-3"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -97,6 +97,9 @@ export default function Home() {
             </Link>
             <Link href="/terms" className="text-white/60 hover:text-white font-medium transition-colors">
               Terms of Use
+            </Link>
+            <Link href="/accessibility" className="text-white/60 hover:text-white font-medium transition-colors">
+              Accessibility
             </Link>
             <Link href="/contact" className="text-white/60 hover:text-white font-medium transition-colors">
               Contact Support

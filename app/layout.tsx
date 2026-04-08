@@ -29,6 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <meta name="apple-itunes-app" content="app-id=6760557467" />
+      </head>
       <body className={`${plusJakarta.variable} font-sans antialiased`}>
         <Navigation />
         {children}

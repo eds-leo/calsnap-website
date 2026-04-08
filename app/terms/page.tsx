@@ -165,10 +165,12 @@ export default function TermsPage() {
         <section>
           <h2 className="text-3xl font-bold mb-4 text-white">15. Contact Information</h2>
           <p>
-            For questions about these Terms, please contact us at:
+            For questions about these Terms, please contact us through our{' '}
+            <a href="/contact" className="text-purple-300 hover:text-purple-200 underline font-semibold">
+              contact form
+            </a>.
           </p>
           <p className="mt-2">
-            <strong>Email:</strong> legal@calsnap.me<br />
             <strong>Website:</strong> https://calsnap.me
           </p>
         </section>

@@ -127,10 +127,12 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p>
-            If you have questions about this Privacy Policy, please contact us at:
+            If you have questions about this Privacy Policy, please contact us through our{' '}
+            <a href="/contact" className="text-purple-300 hover:text-purple-200 underline font-semibold">
+              contact form
+            </a>.
           </p>
           <p className="mt-2">
-            <strong>Email:</strong> privacy@calsnap.me<br />
             <strong>Website:</strong> https://calsnap.me
           </p>
         </section>

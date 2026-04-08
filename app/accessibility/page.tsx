@@ -11,9 +11,10 @@ export default function AccessibilityPage() {
       <div className="container mx-auto max-w-4xl px-4 pt-32 pb-20">
         {/* Header */}
         <div className="text-center mb-16">
+          <div className="text-6xl mb-6">♿</div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-300 via-purple-200 to-blue-300 bg-clip-text text-transparent">
-              ♿ Accessibility
+              Accessibility
             </span>
           </h1>
           <p className="text-white/60">Making nutrition tracking accessible to everyone</p>
@@ -186,21 +187,16 @@ export default function AccessibilityPage() {
 
           <section className="bg-purple-500/20 border-2 border-purple-400/40 rounded-xl p-6 mt-12">
             <h3 className="text-xl font-bold text-purple-300 mb-4">📧 Accessibility Feedback</h3>
-            <p className="mb-3">
+            <p className="mb-4">
               Have suggestions for improving accessibility? Experiencing an accessibility
               issue? We want to hear from you.
             </p>
-            <p>
-              <strong>Email:</strong>{' '}
-              <a href="mailto:accessibility@calsnap.me" className="text-purple-300 font-semibold hover:underline">
-                accessibility@calsnap.me
-              </a>
-              <br />
-              <strong>General Support:</strong>{' '}
-              <a href="mailto:support@calsnap.me" className="text-purple-300 font-semibold hover:underline">
-                support@calsnap.me
-              </a>
-            </p>
+            <a
+              href="/contact"
+              className="inline-block bg-purple-500 hover:bg-purple-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+            >
+              Contact Us
+            </a>
           </section>
 
           <footer className="mt-12 pt-6 border-t-2 border-white/10 text-center text-white/60">

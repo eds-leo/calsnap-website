@@ -41,7 +41,7 @@ export default function ContactPage() {
       }
     } catch (error) {
       console.error("Form submission error:", error);
-      alert("There was an error submitting your message. Please email us directly at support@calsnap.me");
+      alert("There was an error submitting your message. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }
@@ -186,16 +186,6 @@ export default function ContactPage() {
                 {isSubmitting ? "Sending..." : "Send Message"}
               </button>
 
-              {/* Alternative Contact */}
-              <p className="text-center text-white/50 text-sm mt-6">
-                Or email us directly at{" "}
-                <a
-                  href="mailto:support@calsnap.me"
-                  className="text-purple-300 hover:text-purple-200 transition-colors"
-                >
-                  support@calsnap.me
-                </a>
-              </p>
             </form>
           )}
         </div>

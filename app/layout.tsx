@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     description: "Your personal AI nutrition companion. Snap a photo, get instant insights, and reach your health goals effortlessly.",
     type: "website",
   },
+  other: {
+    'apple-itunes-app': 'app-id=6760557467',
+  },
 };
 
 export default function RootLayout({
@@ -29,9 +32,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <meta name="apple-itunes-app" content="app-id=6760557467" />
-      </head>
       <body className={`${plusJakarta.variable} font-sans antialiased`}>
         <Navigation />
         {children}

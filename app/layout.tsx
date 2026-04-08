@@ -11,13 +11,13 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "CalSnap - AI-Powered Nutrition Tracking",
-  description: "Track your nutrition effortlessly with AI-powered meal analysis. Snap a photo, get instant nutrition insights. Available on iOS and Android.",
-  keywords: ["nutrition", "meal tracking", "calorie counter", "AI nutrition", "health", "fitness", "iOS", "Android", "app"],
+  title: "CalSnap - Your AI Nutrition Companion",
+  description: "Your personal AI nutrition companion. Snap a photo, get instant insights, and reach your health goals effortlessly. Available on iOS and Android.",
+  keywords: ["nutrition companion", "AI nutrition", "meal analysis", "health goals", "nutrition insights", "wellness", "fitness", "iOS", "Android", "app"],
   authors: [{ name: "CalSnap" }],
   openGraph: {
-    title: "CalSnap - AI-Powered Nutrition Tracking",
-    description: "Track your nutrition effortlessly with AI-powered meal analysis. Available on iOS and Android.",
+    title: "CalSnap - Your AI Nutrition Companion",
+    description: "Your personal AI nutrition companion. Snap a photo, get instant insights, and reach your health goals effortlessly.",
     type: "website",
   },
 };

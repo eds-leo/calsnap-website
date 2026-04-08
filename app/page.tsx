@@ -10,7 +10,7 @@ export default function Home() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-full text-white text-sm font-medium">
               <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
-              AI-Powered Nutrition Tracking
+              Your AI Nutrition Companion
             </div>
 
             {/* Main Heading */}
@@ -21,7 +21,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-              Transform how you track nutrition. Just snap a photo, and let AI do the rest. Effortless meal logging, powerful insights.
+              Your personal AI nutrition companion that helps you reach your health goals. Just snap a photo, and get instant insights and guidance.
             </p>
 
             {/* CTA Buttons */}
@@ -71,8 +71,8 @@ export default function Home() {
               },
               {
                 icon: "📊",
-                title: "Track Progress",
-                description: "Beautiful charts and trends help you stay on track with your nutrition goals.",
+                title: "Reach Your Goals",
+                description: "Get guided support with beautiful insights and trends that help you achieve your health goals.",
               },
             ].map((feature, i) => (
               <div
